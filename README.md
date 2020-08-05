@@ -2,7 +2,7 @@ In hgail/algos/test_gail.py, there is an implementation of online version of GAI
 The code for setting up grid environment of MDP is repository https://github.com/s-arora-1987/rllab. Please clone that first for implementation. 
 
 
-Rest of documentation is same as original hgail repository. 
+Rest of documentation is same as original hgail repository - https://github.com/sisl/hgail 
 
 # HGAIL
 - This repo contains implementations of the following, built on top of [rllab](https://github.com/openai/rllab):
