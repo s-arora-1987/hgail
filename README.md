@@ -1,4 +1,6 @@
-In hgail/algos/test_gail.py, there is an implementation of online GAIL
+In hgail/algos/test_gail.py, there is an implementation of online version of GAIL. I tested it on grid environment.  
+The code for setting up grid environment of MDP is repository https://github.com/s-arora-1987/rllab. Please clone that first for implementation. 
+
 
 Rest of documentation is same as original hgail repository. 
 
