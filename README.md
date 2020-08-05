@@ -1,3 +1,6 @@
+In hgail/algos/test_gail.py, there is an implementation of online GAIL
+
+Rest of documentation is same as original hgail repository. 
 
 # HGAIL
 - This repo contains implementations of the following, built on top of [rllab](https://github.com/openai/rllab):
