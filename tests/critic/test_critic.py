@@ -71,6 +71,14 @@ class TestWassersteinCritic(unittest.TestCase):
             for epoch in range(n_epochs):
                 critic.train(epoch, fake_data)
 
+            critic_values = critic.network.get_param_values()
+            print(critic_values)
+
+            critic.network.set_param_values(critic_values)
+
+            for epoch in range(n_epochs):
+                critic.train(epoch, fake_data)
+
             real_rewards = critic.network.forward(
                 real_data['observations'], real_data['actions'])
             fake_rewards = critic.network.forward(
